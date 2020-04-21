@@ -139,7 +139,7 @@ AnalyzeKey =
 #   )
 
 
-Duplex_Table = read.table('TestingData_spec_handson_VeryShort.txt', sep = ',', stringsAsFactors=FALSE)
+Duplex_Table = read.table('data_spec.txt', sep = ',', stringsAsFactors=FALSE)
 
 nM = length(NumberOfLeadingEigenValues_Vector)
 
