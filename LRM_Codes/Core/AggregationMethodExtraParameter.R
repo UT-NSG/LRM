@@ -5,7 +5,7 @@ AggregationMethodExtraParameter =
   function (aggregation_method, Train_Matrix, AUX_Matrix, EPType = extra_processing) {
     if(EPType == 'None') {
       if(aggregation_method == 'SimpleAddition') {
-        AggregationMethodExtraParameter = 0;
+        AggregationMethodExtraParameter = 1;
       }
       else if(aggregation_method == 'PCC'){
         AggregationMethodExtraParameter = PCC(Train_Matrix, AUX_Matrix);
