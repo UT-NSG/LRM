@@ -1,5 +1,5 @@
 SimpleAddition = 
-  function (ScoreSoFar, NewPrediction, EPType = 'None', AggregationMethodExtraParameter=0) {
+  function (ScoreSoFar, NewPrediction, EPType = 'None', AggregationMethodExtraParameter=1) {
     if(EPType == 'None') {
       NewScore = ScoreSoFar + AggregationMethodExtraParameter * NewPrediction
     }
